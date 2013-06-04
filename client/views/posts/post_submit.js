@@ -8,6 +8,10 @@ Template.postSubmit.events({
       message: $(event.target).find('[name=message]').val()
     }
 
+    mixpanel.track("Submit Post",{
+      'test':true
+    })
+
     Meteor.call('post', post, function(error, id) {
       if (error) {
         // display the error to the user

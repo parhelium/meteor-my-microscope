@@ -8,6 +8,7 @@
     "accounts-ui-bootstrap-dropdown": {},
     "errors": {},
     "paginated-subscription": {},
-    "spin": {}
+    "spin": {},
+    "nodetime": {}
   }
 }
